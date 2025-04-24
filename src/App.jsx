@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from './contexts/AuthContext'
+import { Analytics } from "@vercel/analytics/react"
 
 // Layouts
 import MainLayout from './layouts/MainLayout'
